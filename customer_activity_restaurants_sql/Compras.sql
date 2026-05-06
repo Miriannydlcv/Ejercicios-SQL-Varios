@@ -2,6 +2,7 @@
 Objetivo:
 Simular un entorno transaccional simple para responder una consulta de negocio:
 
+"Cantidad de clientes únicos activos, entre 30 y 40 años,
 que realizaron compras en restaurantes durante septiembre 2024"
 
 El script incluye:
