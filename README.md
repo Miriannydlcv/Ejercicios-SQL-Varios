@@ -9,11 +9,11 @@ Colección de ejercicios SQL enfocados en análisis de datos, modelado y resoluc
 - Validación de calidad de datos (DQC)
 - Análisis exploratorio
 
-#Proyectos/ejercicios
-1. **customer_activity_restaurants_sql (SQL Query)**  
+# Proyectos/ejercicios
+1. **Customer_activity_restaurants_sql (SQL Query)**  
    Consulta SQL para identificar clientes activos en un segmento específico bajo condiciones de negocio.
 
-2. **customer_spending_kpis_analysis (SQL + Excel + PPT)**  
+2. **Customer_spending_kpis_analysis (SQL + Excel + PPT)**  
    Construcción de métricas clave, validación de calidad de datos y análisis de consumo por segmento.
 
  
@@ -24,34 +24,34 @@ Colección de ejercicios SQL enfocados en análisis de datos, modelado y resoluc
 
 # Estructura del repositorio
 
-Ejercicios-SQL-varios/
-│
+Ejercicios-SQL-varios  
+│  
 ├── README.md  
-│   # Objetivo del repositorio, skills y lista de proyectos
-│
-├── customer_activity_restaurants_sql/
-│   ├── sql/
-│   │   └── Compras.sql  
-│   │       # Modelado + query final
-│   │
-│   └── README.md  
-│       # Explica el problema, lógica y resultado
-│
-├── customer_spending_kpis_analysis/
-│   ├── sql/
-│   │   ├── E2.sql  
-│   │       # Tabla final para el análisis + KPIs + DQC
-│   │
-│   ├── output/
-│   │   └── kpis.xlsx  
-│   │       # Resultados finales para análisis
-│   │
-│   ├── Resultados/
-│   │   └──   customer_spending_kpis_analysis.PPTX
-│   │       # Presentación de insights
-│   │
-│   └── README.md  
-        # Explica KPIs, reglas DQC, insights
+│   # Objetivo del repositorio, skills y lista de proyectos  
+│  
+├── customer_activity_restaurants_sql/  
+│   ├── sql/  
+│   │   └── Compras.sql    
+│   │       # Modelado + query final  
+│   │  
+│   └── README.md    
+│       # Explica el problema, lógica y resultado  
+│  
+├── customer_spending_kpis_analysis/  
+│   ├── sql/  
+│   │   ├── E2.sql    
+│   │       # Tabla final para el análisis + KPIs + DQC  
+│   │  
+│   ├── output/  
+│   │   └── kpis.xlsx    
+│   │       # Resultados finales para análisis  
+│   │  
+│   ├── Resultados/  
+│   │   └──   customer_spending_kpis_analysis.PPTX  
+│   │       # Presentación de insights  
+│   │    
+│   └── README.md     
+        # Explica KPIs, reglas DQC, insights  
 
 
 ## Nota sobre los datos
