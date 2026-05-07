@@ -1,6 +1,6 @@
 # Customer Activity in Restaurants – SQL Analysis
 
-## Objetivo
+### Objetivo
 
 Resolver la siguiente pregunta de negocio:
 
@@ -10,7 +10,7 @@ El ejercicio fue desarrollado a partir de una estructura de tablas dada.
 
 ---
 
-# Contexto del ejercicio
+### Contexto del ejercicio
 
 La estructura original planteaba tres tablas:
 
@@ -26,21 +26,21 @@ A partir de esta estructura:
 - y se construyó el query final para responder la pregunta de negocio.
 
 
-# Estructura original del ejercicio
+### Estructura original del ejercicio
 
-## Tabla: CLIENTES
+**Tabla: CLIENTES**
 - ID_Cliente
 - ID_CUENTA
 - Fecha_Nacimiento
 - Sexo
 - Status_Cliente
 
-## Tabla: COMERCIO
+**Tabla: COMERCIO**
 - ID_COMERCIO 
 - Nombre_Comercio
 - Tipo_Comercio
 
-## Tabla: TRANSACCIONES
+**Tabla: TRANSACCIONES**
 - ID_Cuenta
 - ID_TRANSACCION
 - Fecha_Compra
@@ -53,15 +53,15 @@ Consideración importante:
 
 ---
 
-# Solución 
+### Solución 
 
 Para resolver el ejercicio se construyó un modelo dimensional básico compuesto por:
 
-## Dimensiones
+#### Dimensiones
 - DimClientes
 - DimComercios
 
-## Tabla de hechos
+#### Tabla de hechos
 - FactTransacciones
 
 El modelo permite:
@@ -71,7 +71,7 @@ El modelo permite:
 
 ---
 
-# Query final
+## Query final
 
 ```sql
 SELECT COUNT(DISTINCT(CLI.ID_CLIENTE)) AS Clientes_Unicos
@@ -91,7 +91,7 @@ WHERE
 
 ---
 
-# Lógica aplicada
+### Lógica aplicada
 
 El análisis:
 
@@ -111,36 +111,36 @@ como buena práctica para filtros temporales.
 
 ---
 
-# Estructura del proyecto
+### Estructura del proyecto
 
-customer_activity_restaurants_sql/
-│
-├── README.md
-│
-├── business_question/
-│   └── ejercicio_original.md
-│       # Pregunta de negocio y estructura original de tablas
-│
-├── sql/
-│   └── customer_activity_restaurants.sql
-│       # Modelado, generación de datos dummy y query final
-│
-├── diagrams/
-│   └── modelo_dimensional.png
-│       # Modelo relacional simplificado
-│
-└── outputs/
-    ├── resultado_query.png
-        # Captura del query ejecutado en SQL Server
+customer_activity_restaurants_sql/  
+│  
+├── README.md  
+│  
+├── business_question/  
+│   └── ejercicio_original.md  
+│       # Pregunta de negocio y estructura original de tablas  
+│  
+├── sql/  
+│   └── customer_activity_restaurants.sql  
+│       # Modelado, generación de datos dummy y query final  
+│  
+├── diagrams/  
+│   └── modelo_dimensional.png  
+│       # Modelo relacional simplificado  
+│  
+└── outputs/  
+    ├── resultado_query.png  
+        # Captura del query ejecutado en SQL Server  
 
 ---
 
-# Herramientas utilizadas
+### Herramientas utilizadas
 - SQL Server
 
 ---
 
-# Nota
+**Nota**
 
 La información utilizada fue creada con fines educativos y de práctica analítica.
 No representa datos reales de clientes o empresas.
