@@ -2,13 +2,6 @@
 
 Colección de ejercicios SQL enfocados en análisis de datos, modelado y resolución de problemas de negocio.
 
-# Habilidades
-- SQL (joins, agregaciones, window functions)
-- Construcción de KPIs
-- Modelado de datos (tablas de hechos y dimensiones)
-- Validación de calidad de datos (DQC)
-- Análisis exploratorio
-
 # Proyectos/ejercicios
 1. **Customer_activity_restaurants_sql (SQL Query)**  
    Consulta SQL para identificar clientes activos en un segmento específico bajo condiciones de negocio.
