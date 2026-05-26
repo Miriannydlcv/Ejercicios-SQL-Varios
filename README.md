@@ -22,38 +22,6 @@ Colección de ejercicios SQL enfocados en análisis de datos, modelado y resoluc
 - Excel
 - PowerPoint
 
-# Estructura del repositorio
-
-Ejercicios-SQL-varios  
-│  
-├── README.md  
-│   # Objetivo del repositorio, skills y lista de proyectos  
-│  
-├── customer_activity_restaurants_sql/  
-│   ├── sql/  
-│   │   └── Compras.sql    
-│   │       # Modelado + query final  
-│   │  
-│   └── README.md    
-│       # Explica el problema, lógica y resultado  
-│  
-├── customer_spending_kpis_analysis/  
-│   ├── sql/  
-│   │   ├── E2.sql    
-│   │       # Tabla final para el análisis + KPIs + DQC  
-│   │  
-│   ├── output/  
-│   │   └── kpis.xlsx    
-│   │       # Resultados finales para análisis  
-│   │  
-│   ├── Resultados/  
-│   │   └──   customer_spending_kpis_analysis.PPTX  
-│   │       # Presentación de insights  
-│   │    
-│   └── README.md     
-        # Explica KPIs, reglas DQC, insights  
-
-
 ## Nota sobre los datos
 
 Los datasets utilizados tienen fines educativos y de análisis. No representan información real de ninguna empresa y se utilizan únicamente para demostrar habilidades técnicas.
