@@ -1,6 +1,6 @@
-# Customer Spending KPIs Analysis – SQL + Excel
+## Customer Spending KPIs Analysis – SQL + Excel
 
-### Objetivo
+#### Objetivo
 
 Analizar el consumo de clientes entre enero y junio 2023 para:
 
@@ -12,7 +12,7 @@ El ejercicio fue desarrollado a partir de una estructura de datos dada.
 
 ---
 
-# Contexto del ejercicio
+### Contexto del ejercicio
 
 El ejercicio parte de un dataset transaccional con información de:
 
@@ -31,7 +31,7 @@ e insights accionables con recomendaciones.
 
 ---
 
-# Solución
+### Solución
 
 Para resolver el ejercicio se construyó una tabla consolidada mediante:
 
@@ -48,7 +48,7 @@ Posteriormente:
 
 ---
 
-## Principales insights
+### Principales insights
 
 - Restaurantes mostró crecimiento transversal en todos los segmentos.
 - Supermercados mantuvo liderazgo en volumen, pero perdió participación relativa.
@@ -60,7 +60,7 @@ Los insights completos se encuentran en la presentación.
 
 ---
 
-# Herramientas utilizadas
+### Herramientas utilizadas
 
 - SQL Server
 - Excel
@@ -68,8 +68,7 @@ Los insights completos se encuentran en la presentación.
 
 ---
 
-# Estructura del proyecto
-
+### Estructura del proyecto
 
 customer_spending_kpis_analysis/  
 │  
@@ -82,26 +81,27 @@ customer_spending_kpis_analysis/
 ├── sql/  
 │   └── customer_consumption_analysis.sql  
 │       # Construcción de base analítica, KPIs, DQC y R/F/T  
-├──excel/
+│   
+├──excel/  
 │ └──customer_consumption_kpis.xlsx    
 │      # KPIs, tablas dinámicas y outputs numéricos  
 │  
-├──presentación/ 
+├──presentación/  
 │ └──customer_consumption_storytelling.pptx  
 │ # Storytelling, insights y recomendaciones    
-│ 
-│ └── customer_consumption_storytelling.pdf  
-│ # ppt en formato pdf  
-│ 
-├── outputs_imágenes/     
-│  ├──DQC/ 
-│    └── dqc_summary.png   # Evidencia de resultados DQC  
-│ ├──Queries # capturas de consultas ejecutadas  
-└──Gráficos # gráficos utilizados  
+│   
+│ └── customer_consumption_storytelling.pdf    
+│ # ppt en formato pdf    
+│   
+├── outputs_imágenes/       
+│  ├──DQC/   
+│    └── dqc_summary.png   # Evidencia de resultados DQC    
+│ ├──Queries # capturas de consultas ejecutadas    
+│ └──Gráficos # gráficos utilizados    
 
 ---
 
-# Nota
+#### Nota
 
 La información utilizada fue creada con fines educativos y de práctica analítica.  
 No representa datos reales de clientes o empresas.
